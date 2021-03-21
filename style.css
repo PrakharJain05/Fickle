@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  grid-auto-rows: auto-fit;
+}
+.section {
+  background: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section button {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 16em;
+  height: 4em;
+}
